@@ -1,0 +1,26 @@
+.Button {
+    cursor: pointer;
+    padding : 15px 10px;
+    left : 2%;
+    background-color: #DAD735;
+    border : solid 1px #966909;
+    color : #966909;
+    box-shadow : 2px 2px 2px rgb(126, 126, 126);    
+    margin : 10px;
+}
+
+.h3 {
+    width : 20%;
+    display : inline-block;
+    background-color : #966909;
+    color : white;
+    padding : 10px;
+    border : solid 1px #DAD735;
+    box-shadow : 2px 2px 2px rgb(126, 126, 126)
+}
+
+@media (max-width : 600px) {
+    .h3{
+        width : 70%
+    }
+}

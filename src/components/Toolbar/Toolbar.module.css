@@ -1,0 +1,36 @@
+.Toolbar {
+    height : 56px;
+    width : 100%;
+    position : fixed;
+    left : 0;
+    top : 0;
+    background-color : #703B09;
+    color : white;
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    padding : 0 20px;
+    box-sizing: border-box;
+    z-index : 90;
+}
+
+.MenuShow:hover {
+    cursor: pointer;
+}
+
+.Toolbar nav{
+    height : 100%;
+    align-self: center;
+}
+
+@media(max-width : 600px) {
+    .NavItems{
+        display : none;
+    }
+}
+
+@media(min-width : 601px) {
+    .MenuShow{
+        display : none;
+    }
+}

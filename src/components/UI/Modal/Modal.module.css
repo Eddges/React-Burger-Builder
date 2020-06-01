@@ -1,0 +1,18 @@
+.Modal {
+    position : fixed;
+    z-index: 500;
+    background-color : white;
+    box-shadow: 2px 2px 5px #818181;
+    width : 70%;
+    padding : 16px;
+    box-sizing : border-box;
+    transition : transform 0.3s ease-out;
+    left : 15%;
+    top : 30%;  
+}
+
+@media(max-width : 600px) {
+    .Modal{
+        top : 10%;
+    }
+}

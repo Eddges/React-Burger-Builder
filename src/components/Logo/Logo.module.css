@@ -1,0 +1,13 @@
+.Logo {
+    height : 60%;
+    background-color : white;
+    padding : 4px;
+    box-sizing : border-box;
+    border-radius : 4px;
+    justify-items: flex-start;
+}
+
+.Logo img {
+    max-height : 100%;
+    max-width: 100%;
+}
